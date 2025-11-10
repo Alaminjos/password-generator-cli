@@ -1,7 +1,6 @@
 import string
 from copy import deepcopy
 
-# prefer secure choice, fall back to random.choice if secrets unavailable
 try:
     from secrets import choice
 except Exception:
